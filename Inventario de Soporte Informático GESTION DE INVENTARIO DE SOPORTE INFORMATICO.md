@@ -54,7 +54,7 @@ Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris t
 
 ### Diagrama conceptual (opcional)
 ![diagrama_relacional](link donde se encuentra el la imagen del diagrama conceptual)
-```
+
 ### Diagrama relacional
 ![diagrama_relacional](link donde se encuentra el la imagen del diagrama relacional)
 
