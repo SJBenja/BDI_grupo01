@@ -1,0 +1,1 @@
+Aqui debe ir el diagrama del Diseño Conceptual en formato ".png"
