@@ -12,7 +12,7 @@ BDI_grupo01/
 ├── doc/
 │   ├── diccionario_datos.txt
 │   ├── image_conceptual.txt
-│   └── Image_relacional-disico.txt
+│   └── image_relacional.png
 └── script/
     ├── script_ddl_proyecto.sql
     ├── script_insert_proyecto.sql
