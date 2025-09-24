@@ -10,7 +10,7 @@ BDI_grupo01/
 ├── LICENSE
 ├── README.md
 ├── doc/
-│   ├── diccionario_datos.txt
+│   ├── diccionario_datos.pdf
 │   ├── image_conceptual.txt
 │   └── image_relacional.png
 └── script/
