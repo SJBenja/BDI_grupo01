@@ -109,7 +109,7 @@ Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris t
 
 ![image][logo]
 
-[logo]: https://github.com/SJBenja/BDI_grupo01/blob/main/doc/image_relacional.png/?raw=true "Diseño Relacional"
+[logo]: https://github.com/SJBenja/BDI_grupo01/blob/main/doc/image_relacional.png "Diseño Relacional"
 
 ### Diccionario de datos
 
