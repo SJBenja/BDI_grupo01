@@ -72,23 +72,28 @@ usuarios dentro de la sección Informática.
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
 
 **TEMA 1 " ---- "** 
-Ut sed imperdiet risus. Maecenas vestibulum arcu vitae orci pretium pharetra. Suspendisse potenti. Fusce massa libero, fermentum eget elit in, tincidunt fermentum nunc. Cras imperdiet nisl elit, elementum gravida enim accumsan vel. Sed in sapien quis ante consectetur commodo id non nulla. Aenean lacinia, dolor convallis semper mattis, ante orci elementum nunc, eget feugiat risus neque in urna. Ut ut quam nec risus mollis convallis ornare ac odio. Phasellus efficitur posuere nibh, eget tempor augue pellentesque ac. Ut enim sem, imperdiet non est ut, blandit posuere dui. Curabitur at purus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
 
 **TEMA 2 " ----- "** 
-Ut sed imperdiet risus. Maecenas vestibulum arcu vitae orci pretium pharetra. Suspendisse potenti. Fusce massa libero, fermentum eget elit in, tincidunt fermentum nunc. Cras imperdiet nisl elit, elementum gravida enim accumsan vel. Sed in sapien quis ante consectetur commodo id non nulla. Aenean lacinia, dolor convallis semper mattis, ante orci elementum nunc, eget feugiat risus neque in urna. Ut ut quam nec risus mollis convallis ornare ac odio. Phasellus efficitur posuere nibh, eget tempor augue pellentesque ac. Ut enim sem, imperdiet non est ut, blandit posuere dui. Curabitur at purus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
 ...
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
-Donec lobortis tincidunt erat, non egestas mi volutpat in. Cras ante purus, luctus sed fringilla non, ullamcorper at eros.
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
  **a) Cómo se realizó el Trabajo Práctico**
-Vestibulum rutrum feugiat molestie. Nunc id varius augue. Ut augue mauris, venenatis et lacus ut, mattis blandit urna. Fusce lobortis, quam non vehicula scelerisque, nisi enim ultrices diam, ac tristique libero ex nec orci.
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
  **b) Herramientas (Instrumentos y procedimientos)**
-Donec lobortis tincidunt erat, non egestas mi volutpat in. Cras ante purus, luctus sed fringilla non, ullamcorper at eros. Integer interdum id orci id rutrum. Curabitur facilisis lorem sed metus interdum accumsan. 
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
 
 ## CAPÍTULO IV: DESARROLLO DEL TEMA / PRESENTACIÓN DE RESULTADOS 
@@ -101,7 +106,10 @@ Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris t
 ![diagrama_relacional](link donde se encuentra el la imagen del diagrama conceptual)
 
 ### Diagrama relacional
-![diagrama_relacional](link donde se encuentra el la imagen del diagrama relacional)
+
+![image][logo]
+
+[logo]: https://github.com/SJBenja/BDI_grupo01/blob/main/doc/image_relacional.png/?raw=true "Diseño Relacional"
 
 ### Diccionario de datos
 
@@ -110,13 +118,15 @@ Acceso al documento [PDF](doc/diccionario_datos.txt) del diccionario de datos.
 
 ### Desarrollo TEMA 1 "----"
 
-Fusce auctor finibus lectus, in aliquam orci fermentum id. Fusce sagittis lacus ante, et sodales eros porta interdum. Donec sed lacus et eros condimentum posuere. 
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
 > Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_1](script/tema01_nombre_tema)
 
 ### Desarrollo TEMA 2 "----"
 
-Proin aliquet mauris id ex venenatis, eget fermentum lectus malesuada. Maecenas a purus arcu. Etiam pellentesque tempor dictum. 
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
 > Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_2](script/tema02_nombre_tema)
 
@@ -125,15 +135,24 @@ Proin aliquet mauris id ex venenatis, eget fermentum lectus malesuada. Maecenas 
 
 ## CAPÍTULO V: CONCLUSIONES
 
-Nunc sollicitudin purus quis ante sodales luctus. Proin a scelerisque libero, vitae pharetra lacus. Nunc finibus, tellus et dictum semper, nisi sem accumsan ligula, et euismod quam ex a tellus. 
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
 
 
 ## BIBLIOGRAFÍA DE CONSULTA
+> [!IMPORTANT]  
+> Bibliografia de la Catedra  
+> 1. [Diseño de base de datos: Constructos básicos del modelo Entidad-Relación según la notación de P. Chen](https://elibro.net/es/ereader/unne/70030?page=86)
+> 2. [Base de Datos: Entidad relación](https://elibro.net/es/ereader/unne/121283?page=52)
+> 3. [Mapeo del esquema conceptual al esquema relacional](https://elibro.net/es/ereader/unne/121283?page=78)
+> 4. [Procesos de normalización](https://elibro.net/es/ereader/unne/121283?page=87)
+> 5. [CREAR bases de datos, tablas y restricciones. (CREATE)](https://elibro.net/es/ereader/unne/280623?page=52)
+> 6. [MODIFICAR tablas, agregar/borrar restricciones y columnas (ALTER)](https://elibro.net/es/ereader/unne/280623?page=71)  
+> 7. [Borrar base de datos y tablas (DROP / TRUNCATE)](https://elibro.net/es/ereader/unne/280623?page=77)
+> 8. [SQL DDL aplicado a SQL Server (Ejemplos prácticos)](https://elibro.net/es/ereader/unne/70511?page=116)  
 
- 1. List item
- 2. List item
- 3. List item
- 4. List item
- 5. List item
-
+> [!TIP]  
+> Documentacion de Herramientas  
+> 9. [Documentacion de GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
+> 10. [Documentacion de Visual Studio Code](https://code.visualstudio.com/docs/getstarted/settings)

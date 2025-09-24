@@ -1,1 +1,0 @@
-Aqui debe ir el diagrama del Diseño Relacional en formato ".png"
