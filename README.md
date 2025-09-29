@@ -11,7 +11,7 @@ BDI_grupo01/
 ├── README.md
 ├── doc/
 │   ├── diccionario_datos.pdf
-│   ├── image_conceptual.txt
+│   ├── image_conceptual.png
 │   └── image_relacional.png
 └── script/
     ├── script_ddl_proyecto.sql
