@@ -71,16 +71,23 @@ usuarios dentro de la sección Informática.
 
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
 
-**TEMA 1 " ---- "** 
+**TEMA 1 "Procedimientos y funciones almacenadas"** 
 > [!IMPORTANT]  
 > Estos temas se desarrollaran en la segunda entrega.
 
 
-**TEMA 2 " ----- "** 
+**TEMA 2 "Optimización de consultas a través de índices"** 
 > [!IMPORTANT]  
 > Estos temas se desarrollaran en la segunda entrega.
 
+**TEMA 3 "Manejo de transacciones y transacciones anidadas"** 
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 ...
+
+**TEMA 3 "Manejo de permisos a nivel de usuario de bases de datos"** 
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 

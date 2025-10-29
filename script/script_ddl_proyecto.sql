@@ -140,19 +140,21 @@ create table agente
   go    
   
 -- TABLA INVENTARIO-- 
-create table inventario
-      (id_inventario int IDENTITY PRIMARY KEY,
-       id_hard int not null,
-	   id_estado varchar (30) not null,
-	   nro_legajo int not null,
-       nro_serie int not null,
-       id_fabricante int not null,
-       modelo varchar (30) not null,
-	   observacion varchar (50) not null,
-	   Constraint FK_inventario_hardware FOREIGN KEY (id_hard) REFERENCES hardware(id_hard),
-	   Constraint FK_inventario_estado FOREIGN KEY (id_estado) REFERENCES estado (id_estado), 
-	   Constraint FK_inventario_fabricante FOREIGN KEY (id_fabricante) REFERENCES fabricante (id_fabricante),
-	   )	
+create table inventario( 
+    nro_legajo varchar(20) primary key, -- PK no auto-incremental
+    id_hardware int not null,
+    id_estado int not null,
+    cuil bigint, -- La persona a la que está asignado, si no está en agente_inventario
+    nro_serie varchar(30),
+    id_fabricante int,
+    modelo varchar(50),
+    observaciones varchar(50),
+    nro_legajo_original varchar(20), -- Si se necesita el campo auto-incremental como referencia, se deja sin ser PK.
+    -- La FK a la persona asignada se hace mejor en AGENTE_INVENTARIO
+    CONSTRAINT FK_inventario_hardware FOREIGN KEY (id_hardware) REFERENCES hardware (id_hardware),
+    CONSTRAINT FK_inventario_estado FOREIGN KEY (id_estado) REFERENCES estado (id_estado),
+    CONSTRAINT FK_inventario_fabricante FOREIGN KEY (id_fabricante) REFERENCES fabricante (id_fabricante),
+	)
   go 
 
   --TABLA PERFIL--
