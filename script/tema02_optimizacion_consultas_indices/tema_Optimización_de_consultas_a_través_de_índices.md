@@ -4,29 +4,12 @@
 La optimización de consultas a través de índices es el proceso de crear estructuras de datos que aceleran la recuperación de filas de una tabla. El motor de base de datos utiliza los índices de manera similar a cómo se usa el índice de un libro.
 
 >>Tipos de Índices y sus Aplicaciones
-_____________________________________________________________________________________________________________________________
-|Tipo de Índice      |Descripción                 |Almacenamiento y Clave                    |Aplicación Principal           |
-|____________________|____________________________|__________________________________________|_______________________________|
-|Agrupado (Clustered)|Define el orden físico de   |La tabla de datos es la hoja final        |Consultas que recuperan rangos |
-|                    |almacenamiento de los datos |(nivel hoja) del índice. Se basa en la    |de filas o que usan un orden de|
-|                    |en disco. Una tabla solo    |Clave Primaria por defecto.               |clasificación frecuente (ej.   |
-|                    |puede tener un índice       |                                          |búsquedas por fechas).         |
-|                    |agrupado.                   |                                          |                               |
-|____________________|____________________________|__________________________________________|_______________________________|
-|No Agrupado         |Es una estructura separada  |Estructura de árbol B que almacena la(s)  |Consultas que buscan filas     |
-|(Non-Clustered)     |de la tabla de datos, con   |columna(s) del índice y un puntero a la   |específicas o usan columnas    |
-|                    |punteros a las filas reales.|fila de datos (PK o Row ID).              |frecuentemente usadas en las   |
-|                    |Una tabla puede tener       |                                          |cláusulas WHERE, JOIN u        |
-|                    |múltiples índices no        |                                          |ORDER BY.                      |
-|                    |agrupados.                  |                                          |                               |
-|____________________|____________________________|__________________________________________|_______________________________|
-|Índice con Columnas |Un tipo especial de índice  |El nivel hoja almacena las columnas clave |Cubrir la Consulta (Covering   |
-|Incluidas           |No Agrupado que almacena    |más las columnas incluidas.               |Index): Permite que el motor   |
-|                    |columnas adicionales        |                                          |obtenga todos los datos        |
-|                    |(no clave) en el nivel hoja.|                                          |necesariosdirectamente del     |
-|                    |                            |                                          |índice sin tener que acceder a |
-|                    |                            |                                          |la tabla base (lookup).        |
-|____________________|____________________________|__________________________________________|_______________________________|
+
+| Tipo de Índice | Descripción |Almacenamiento y Clave | Aplicación Principal |
+| :---: | :---: | :---: | :---: |
+| Agrupado (Clustered) | Define el orden físico de almacenamiento de los datos en disco. Una tabla solo puede tener un índice agrupado. | La tabla de datos es la hoja final (nivel hoja) del índice. Se basa en la Clave Primaria por defecto. | Consultas que recuperan rangos de filas o que usan un orden de clasificación frecuente (ej. búsquedas por fechas). |
+| No Agrupado (Non-Clustered) | Es una estructura separada de la tabla de datos, con punteros a las filas reales. Una tabla puede tener múltiples índices no agrupados. |  	Estructura de árbol B que almacena la(s) columna(s) del índice y un puntero a la fila de datos (PK o Row ID). | Consultas que buscan filas específicas o usan columnas frecuentemente usadas en las cláusulas WHERE, JOIN u ORDER BY. |
+| Índice con Columnas Incluidas | Un tipo especial de índice No Agrupado que almacena columnas adicionales (no clave) en el nivel hoja. | El nivel hoja almacena las columnas clave más las columnas incluidas.	| Cubrir la Consulta (Covering Index): Permite que el motor obtenga todos los datos necesarios directamente del índice sin tener que acceder a la tabla base (lookup). |
 
 >>🎯 Plan de Tareas y Criterios de Evaluación
 El objetivo es demostrar el impacto de los índices agrupados en una consulta de rango (WHERE fecha BETWEEN X AND Y). Elegiremos la tabla agente_inventario o inventario si le agregaste un campo fecha_ingreso para la carga masiva.
