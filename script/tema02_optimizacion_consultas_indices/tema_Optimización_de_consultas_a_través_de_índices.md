@@ -11,8 +11,8 @@ La optimización de consultas a través de índices es el proceso de crear estru
 | No Agrupado (Non-Clustered) | Es una estructura separada de la tabla de datos, con punteros a las filas reales. Una tabla puede tener múltiples índices no agrupados. |  	Estructura de árbol B que almacena la(s) columna(s) del índice y un puntero a la fila de datos (PK o Row ID). | Consultas que buscan filas específicas o usan columnas frecuentemente usadas en las cláusulas WHERE, JOIN u ORDER BY. |
 | Índice con Columnas Incluidas | Un tipo especial de índice No Agrupado que almacena columnas adicionales (no clave) en el nivel hoja. | El nivel hoja almacena las columnas clave más las columnas incluidas.	| Cubrir la Consulta (Covering Index): Permite que el motor obtenga todos los datos necesarios directamente del índice sin tener que acceder a la tabla base (lookup). |
 
->>🎯 Plan de Tareas y Criterios de Evaluación
-El objetivo es demostrar el impacto de los índices agrupados en una consulta de rango (WHERE fecha BETWEEN X AND Y). Elegiremos la tabla agente_inventario o inventario si le agregaste un campo fecha_ingreso para la carga masiva.
+🎯 Plan de Tareas y Criterios de Evaluación
+El objetivo es demostrar el impacto de los índices agrupados en una consulta de rango (WHERE fecha BETWEEN X AND Y). Elegiremos la tabla agente_inventario o inventario agregando un campo fecha_ingreso para la carga masiva.
 
 1. Preparación: Carga Masiva (Sin Índice)
 Objetivo: Crear una base de datos grande para que la lentitud sin índice sea medible. Tabla Sugerida: agente_inventario (o inventario si tiene la columna fecha_ingreso).
@@ -24,7 +24,8 @@ Generar un script DML automatizado (ej. usando un WHILE loop o herramientas de g
 Asegurar que la columna fecha (ej. fecha_alta o fecha_ingreso) tenga una distribución de valores a lo largo de un periodo significativo (ej. 5 años) para la prueba de rango.
 2. Prueba 1: Búsqueda sin Índice
 Tarea: Ejecutar la consulta de prueba de rango y registrar el rendimiento. Consulta de Prueba (Ejemplo):
-'''sql
+
+'''
 SELECT nro_legajo, nro_serie, modelo -- (Columnas a seleccionar)
 FROM inventario -- (o agente_inventario)
 WHERE fecha_ingreso BETWEEN '2020-01-01' AND '2020-12-31';
@@ -40,7 +41,8 @@ WHERE fecha_ingreso BETWEEN '2020-01-01' AND '2020-12-31';
 Tarea: Crear un índice agrupado sobre la columna fecha_ingreso (o similar) y repetir la consulta.
 
 Script DDL (Ejemplo - Si usas SQL Server/MySQL y la tabla no tiene Clustered Index):
-'''sql
+
+'''
 CREATE CLUSTERED INDEX IX_Inventario_Fecha_C
 ON inventario (fecha_ingreso ASC);
 '''
@@ -55,7 +57,8 @@ ON inventario (fecha_ingreso ASC);
 Tarea: Borrar el índice agrupado y crear un índice No Agrupado que cubra la consulta (es decir, que contenga las columnas fecha_ingreso y todas las columnas que se seleccionan en el SELECT).
 
 Script DDL (Ejemplo):
-'''sql
+
+'''
 -- Borrar el índice agrupado antes de crear el nuevo (si es necesario)
 -- DROP INDEX IX_Inventario_Fecha_C ON inventario; 
 
