@@ -172,7 +172,7 @@ Create table usuario ( id_usuario int IDENTITY(1,1) primary key,
 						)
 go
 --TABLA AGENTE_INVENTARIO--
-create table agente_inventario( id int primary key identity,
+create table agente_inventario( id int primary key identity(1, 1),
 								id_inventario int,
 								cuil bigint not null,
 								fecha_alta date not null,
@@ -203,3 +203,8 @@ ALTER TABLE agente
 /*6 - El estado de un hardware debe ser único, no se debe sobreponer  los estados a un hardware
 ALTER TABLE inventario
 	ADD CONSTRAINT UQ_inventario_cuil UNIQUE (cuil);*/
+
+-- ÍNDICE CLAVE: Un equipo solo puede estar asignado a un agente activo
+CREATE UNIQUE INDEX UX_agenteInventario_activo
+ON agente_inventario (id_inventario)
+WHERE fecha_baja IS NULL;
