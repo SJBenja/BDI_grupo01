@@ -17,9 +17,9 @@ END
 GO */
 
 CREATE DATABASE base_inventario;
-go;
+go
 USE base_inventario;
-go;
+go
 
 -------------------
 
@@ -102,7 +102,7 @@ go
 
 --TABLA ESTADO--
 
-Create table estado (id_estado varchar (30) primary key, 
+Create table estado (id_estado int primary key, 
 					    descripcion varchar(100) not null,
 						)
 go
@@ -140,18 +140,17 @@ create table agente
   go    
   
 -- TABLA INVENTARIO-- 
-create table inventario( 
-    nro_legajo varchar(20) primary key, -- PK no auto-incremental
-    id_hardware int not null,
-    id_estado int not null,
-    cuil bigint, -- La persona a la que está asignado, si no está en agente_inventario
-    nro_serie varchar(30),
-    id_fabricante int,
-    modelo varchar(50),
-    observaciones varchar(50),
-    nro_legajo_original varchar(20), -- Si se necesita el campo auto-incremental como referencia, se deja sin ser PK.
-    -- La FK a la persona asignada se hace mejor en AGENTE_INVENTARIO
-    CONSTRAINT FK_inventario_hardware FOREIGN KEY (id_hardware) REFERENCES hardware (id_hardware),
+create table inventario(
+	id_inventario int identity(1, 1) primary key,
+	id_hard int not null,
+	id_estado int not null, 
+    nro_legajo varchar(20) not null, 
+    nro_serie varchar(30) not null,    
+    id_fabricante int not null,
+    modelo varchar(50) not null,
+    observaciones varchar(50) not null,
+    nro_legajo_original varchar(20),
+    CONSTRAINT FK_inventario_hardware FOREIGN KEY (id_hard) REFERENCES hardware (id_hard),
     CONSTRAINT FK_inventario_estado FOREIGN KEY (id_estado) REFERENCES estado (id_estado),
     CONSTRAINT FK_inventario_fabricante FOREIGN KEY (id_fabricante) REFERENCES fabricante (id_fabricante),
 	)
@@ -165,7 +164,7 @@ Create table perfil
 go
 
 --TABLA USUARIO--
-Create table usuario ( id_usuario int IDENTITY primary key, 
+Create table usuario ( id_usuario int IDENTITY(1,1) primary key, 
 					   id_perfil int not null,
 					   cuil int not null,
 					   contraseña varchar (32) not null,
@@ -179,8 +178,6 @@ create table agente_inventario( id int primary key identity,
 								cuil int not null,
 								fecha_alta date not null,
 								fecha_baja date,
-								cod_provincia int not null,
-								cod_departamento int not null,
 								observaciones varchar(250),
 								CONSTRAINT FK_agenteInventario_inventario FOREIGN KEY (id_inventario)REFERENCES	inventario(id_inventario),
 								CONSTRAINT FK_agenteInventario_agente FOREIGN KEY (cuil) REFERENCES agente(cuil),
