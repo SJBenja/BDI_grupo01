@@ -87,7 +87,7 @@ Create table distrito
 	nro_distrito int not null ,
 	descripcion varchar (100) not null,
 	direccion varchar (100) not null,
-	telefono int not null,
+	telefono varchar(20) not null,
     Constraint PK_distrito PRIMARY KEY (cod_provincia, cod_departamento, nro_distrito),
 	Constraint FK_distrito_pcia FOREIGN KEY (cod_provincia,cod_departamento)  REFERENCES departamento(cod_provincia,cod_departamento),						 								 					     					     					     				     					     
 	)
@@ -102,7 +102,7 @@ go
 
 --TABLA ESTADO--
 
-Create table estado (id_estado int primary key, 
+Create table estado (id_estado varchar(30) primary key, 
 					    descripcion varchar(100) not null,
 						)
 go
@@ -128,7 +128,7 @@ create table agente
        nombre varchar (50) not null,
 	   apellido varchar (50) not null,
 	   direccion varchar (100) not null,
-	   telefono int not null,
+	   telefono varchar(20) not null,
        cod_division int not null,
        cod_provincia int not null,
        cod_departamento int not null,
@@ -143,13 +143,12 @@ create table agente
 create table inventario(
 	id_inventario int identity(1, 1) primary key,
 	id_hard int not null,
-	id_estado int not null, 
+	id_estado varchar(30) not null, 
     nro_legajo varchar(20) not null, 
     nro_serie varchar(30) not null,    
     id_fabricante int not null,
     modelo varchar(50) not null,
     observaciones varchar(50) not null,
-    nro_legajo_original varchar(20),
     CONSTRAINT FK_inventario_hardware FOREIGN KEY (id_hard) REFERENCES hardware (id_hard),
     CONSTRAINT FK_inventario_estado FOREIGN KEY (id_estado) REFERENCES estado (id_estado),
     CONSTRAINT FK_inventario_fabricante FOREIGN KEY (id_fabricante) REFERENCES fabricante (id_fabricante),
