@@ -124,7 +124,7 @@ go
 --TABLA AGENTE--
 
 create table agente
-      (cuil int not null,
+      (cuil bigint not null,
        nombre varchar (50) not null,
 	   apellido varchar (50) not null,
 	   direccion varchar (100) not null,
@@ -165,7 +165,7 @@ go
 --TABLA USUARIO--
 Create table usuario ( id_usuario int IDENTITY(1,1) primary key, 
 					   id_perfil int not null,
-					   cuil int not null,
+					   cuil bigint not null,
 					   contraseña varchar (32) not null,
 					   Constraint FK_usuario_perfil FOREIGN KEY (id_perfil) REFERENCES perfil (id_perfil),
 					   Constraint FK_usuario_agente FOREIGN KEY (cuil) REFERENCES agente (cuil),
@@ -174,7 +174,7 @@ go
 --TABLA AGENTE_INVENTARIO--
 create table agente_inventario( id int primary key identity,
 								id_inventario int,
-								cuil int not null,
+								cuil bigint not null,
 								fecha_alta date not null,
 								fecha_baja date,
 								observaciones varchar(250),
