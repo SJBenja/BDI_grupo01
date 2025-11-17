@@ -25,7 +25,7 @@ Asegurar que la columna fecha (ej. fecha_alta o fecha_ingreso) tenga una distrib
 2. Prueba 1: Búsqueda sin Índice
 Tarea: Ejecutar la consulta de prueba de rango y registrar el rendimiento. Consulta de Prueba (Ejemplo):
 
-'''
+''' SQL   
 SELECT nro_legajo, nro_serie, modelo -- (Columnas a seleccionar)
 FROM inventario -- (o agente_inventario)
 WHERE fecha_ingreso BETWEEN '2020-01-01' AND '2020-12-31';
@@ -42,7 +42,7 @@ Tarea: Crear un índice agrupado sobre la columna fecha_ingreso (o similar) y re
 
 Script DDL (Ejemplo - Si usas SQL Server/MySQL y la tabla no tiene Clustered Index):
 
-'''
+''' SQL   
 CREATE CLUSTERED INDEX IX_Inventario_Fecha_C
 ON inventario (fecha_ingreso ASC);
 '''
@@ -58,7 +58,7 @@ Tarea: Borrar el índice agrupado y crear un índice No Agrupado que cubra la co
 
 Script DDL (Ejemplo):
 
-'''
+''' SQL   
 -- Borrar el índice agrupado antes de crear el nuevo (si es necesario)
 -- DROP INDEX IX_Inventario_Fecha_C ON inventario; 
 
