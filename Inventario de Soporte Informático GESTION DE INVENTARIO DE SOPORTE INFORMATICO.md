@@ -73,7 +73,7 @@ usuarios dentro de la sección Informática.
 
 **TEMA 1 "Procedimientos y funciones almacenadas"** 
 > [!IMPORTANT]  
-> [Procedimientos y funciones almacenadas](script/tema01_procedimientos_y_funciones_almacenadas/tema_Procedimientos_y_funciones_almacenadas.md)
+> [Procedimientos y funciones almacenadas](script/tema01_procedimiento_funciones_almacenadas/procedimientos_y_funciones.md)
 
 
 **TEMA 2 "Optimización de consultas a través de índices"** 
@@ -126,7 +126,7 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 ### Desarrollo TEMA 1 "Procedimientos y funciones almacenadas"
 
 > [!IMPORTANT]  
-> Aqui se encuentra el desarrollo del [scripts-> tema_1](script/tema01_procedimientos_y_funciones_almacenadas/tema01_script.sql)
+> Aqui se encuentra el desarrollo del [scripts-> tema_1](script/tema01_procedimiento_funciones_almacenadas/tema01_script.sql)
 
 > Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_1](script/tema01_nombre_tema)
 
