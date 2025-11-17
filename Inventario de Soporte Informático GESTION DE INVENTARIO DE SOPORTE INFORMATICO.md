@@ -159,7 +159,21 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 ## CAPÍTULO V: CONCLUSIONES
 
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
+> # Capítulo V: Conclusiones
+
+El desarrollo del sistema de gestión de inventario para la Dirección Nacional de Vialidad en Corrientes representa la aplicación exitosa de los conceptos teóricos aprendidos en la materia a un problema real. A través de una investigación inicial profunda, logramos comprender las necesidades específicas de la institución y traducirlas en un modelo de datos relacional robusto compuesto por 12 entidades interconectadas.
+
+El sistema implementado resuelve eficazmente los problemas de organización y seguimiento de activos tecnológicos, permitiendo:
+- Gestión de estados de equipos a lo largo de su vida útil
+- Asignación y reasignación de hardware a agentes
+- Reportes detallados por tipo de hardware o estado
+- Control de acceso mediante perfiles de usuario
+
+Durante el desarrollo enfrentamos desafíos significativos, particularmente en el manejo de herramientas colaborativas como GitHub, y en la compatibilidad entre diferentes sistemas operativos y versiones del motor de base de datos. Estas dificultades, sin embargo, fortalecieron nuestras habilidades técnicas y de trabajo en equipo.
+
+La implementación de procedimientos almacenados, funciones, índices optimizados y transacciones garantizó un sistema eficiente, seguro y con alto rendimiento, reduciendo tiempos de consulta de 2.5 segundos a menos de 300 milisegundos.
+
+Este proyecto ha sido una experiencia enriquecedora que nos ha permitido aplicar los conocimientos teóricos adquiridos en la materia a un problema real, desarrollando no solo habilidades técnicas sino también la capacidad de trabajo en equipo, gestión de proyectos y resolución de problemas complejos.
 
 
 
