@@ -73,7 +73,7 @@ usuarios dentro de la sección Informática.
 
 **TEMA 1 "Procedimientos y funciones almacenadas"** 
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
+> [Procedimientos y funciones almacenadas](script/tema01_procedimientos_y_funciones_almacenadas/tema_Procedimientos_y_funciones_almacenadas.md)
 
 
 **TEMA 2 "Optimización de consultas a través de índices"** 
