@@ -90,8 +90,6 @@ usuarios dentro de la sección Informática.
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
-## CAPÍTULO III: METODOLOGÍA SEGUIDA 
-
 > [!IMPORTANT]  
 > La metodología de trabajo se desarrolla en entorno distribuido para lo cual se usa reuniones vía web y usando distintas herramientas para facilitar el desarrollo de la documentación solicitada como así también de forma local.
 
