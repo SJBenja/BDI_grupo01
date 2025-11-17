@@ -84,8 +84,10 @@ GO
 | 'Tiempo de Respuesta (ms)' | ~289 ms | Mejora del 88.4% y la mejor ejecución global.| 
 |**Costo (Estimado en %) ** | ~12% | |
 
-5. Conclusiones Finales
+5. Conclusiones Finales   
+
 📈 Diferencia de Rendimiento y Análisis del Plan
+
 | Comparación | Tiempo de Ejecución | Plan de Ejecución |
 | :---: | :---: | :---: |
 | Prueba 1 (Sin Índice) | ~2490 ms | Requiere leer el 100% de la tabla (Clustered Index Scan). |
@@ -94,10 +96,11 @@ GO
 
 El tiempo de respuesta se redujo de 2.5 segundos a menos de 300 milisegundos, demostrando que la indexación es una técnica vital de optimización.
 
-🌟 Ventaja del Índice Cubridor (Prueba 3)
+🌟 Ventaja del Índice Cubridor (Prueba 3)   
+
 El Índice Cubridor es la estrategia más eficiente para esta consulta específica porque:
 
-Se basa en la columna de búsqueda (fecha_alta).
+| Se basa en la columna de búsqueda (fecha_alta). |
 
 Cubre la Consulta: Al incluir las columnas id_inventario, cuil y observaciones, el motor de la base de datos no necesita realizar una costosa operación de "Key Lookup" (búsqueda en la tabla principal) para obtener los campos restantes.
 
