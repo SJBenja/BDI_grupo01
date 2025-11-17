@@ -90,16 +90,28 @@ usuarios dentro de la sección Informática.
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
-> [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
+## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
- **a) Cómo se realizó el Trabajo Práctico**
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
+> La metodología de trabajo se desarrolla en entorno distribuido para lo cual se usa reuniones vía web y usando distintas herramientas para facilitar el desarrollo de la documentación solicitada como así también de forma local.
 
- **b) Herramientas (Instrumentos y procedimientos)**
+ *a) Cómo se realizó el Trabajo Práctico*
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
+> Este trabajo se realizo de forma remota utilizando el repositorio de GitHub creado para tal fin. Dentro del mismo se crearon ramas por cada participante del grupo para que puedan desarrollar sus temas teoricos al igual que el desarrollo de un script vinculado a su tema.
+> Estos temas fueron distribuidos por elección de los integrantes del grupo.
+
+ *b) Herramientas (Instrumentos y procedimientos)*
+> [!IMPORTANT]  
+> Las herramientas utilizadas fueron las siguientes:
+> - GitHub: como repositorio del desarrollo del trabajo en cuestion.
+> - Sistemas Operativos: Linux (Ubuntu) y Windows 11
+> - Motor de bases de datos: SQL Server
+>    - Microsoft SQL Server 2022 (RTM) - 16.0.1000.6 (X64)   Oct  8 2022 05:58:25   Copyright (C) 2022 Microsoft Corporation  Developer Edition (64-bit) on Windows 10 Pro 10.0 <X64> (Build 22631: ) (Hypervisor)
+>    - Microsoft SQL Server 2022 (RTM-GDR) (KB5068407) - 16.0.1160.1 (X64)   Oct  3 2025 18:06:58   Copyright (C) 2022 Microsoft Corporation  Express Edition (64-bit) on Windows 10 Pro 10.0 <X64> (Build 26100: )
+>    - Microsoft SQL Server 2019 (RTM-CU32-GDR) (KB5065222) - 15.0.4445.1 (X64) Aug 13 2025 11:07:18 Copyright (C) 2019 Microsoft Corporation Developer Edition (64-bit) on Linux (Ubuntu 20.04.6 LTS) <X64>
+> - Manejador de Bases de Datos (SGDB):
+>    - SQL Server Management Studio 2019
+>    - Dbeaver CE 25.2.4
 
 
 ## CAPÍTULO IV: DESARROLLO DEL TEMA / PRESENTACIÓN DE RESULTADOS 
