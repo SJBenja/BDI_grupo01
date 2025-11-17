@@ -100,7 +100,7 @@ El tiempo de respuesta se redujo de 2.5 segundos a menos de 300 milisegundos, de
 
 El Índice Cubridor es la estrategia más eficiente para esta consulta específica porque:
 
-| Se basa en la columna de búsqueda (fecha_alta). |
+> Se basa en la columna de búsqueda (fecha_alta). 
 
 Cubre la Consulta: Al incluir las columnas id_inventario, cuil y observaciones, el motor de la base de datos no necesita realizar una costosa operación de "Key Lookup" (búsqueda en la tabla principal) para obtener los campos restantes.
 
