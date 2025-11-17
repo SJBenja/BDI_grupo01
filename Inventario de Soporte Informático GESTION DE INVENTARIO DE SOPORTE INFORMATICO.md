@@ -138,9 +138,7 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 ### Desarrollo TEMA 3 "Manejo de transacciones y transacciones anidadas"
 
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
-
-> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_3](script/tema03_nombre_tema)
+> Aqui se encuentra el desarrollo del [scripts-> tema_3](script/tema03_manejo_transacciones_y_transacciones_anidadas/tema03_script.sql)
 
 ### Desarrollo TEMA 4 "Manejo de permisos a nivel de usuario de bases de datos"
 
