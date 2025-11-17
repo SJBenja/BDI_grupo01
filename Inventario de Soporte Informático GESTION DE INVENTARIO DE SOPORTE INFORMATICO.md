@@ -78,14 +78,14 @@ usuarios dentro de la sección Informática.
 
 **TEMA 2 "Optimización de consultas a través de índices"** 
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
+> [Optimización de consultas a través de índices](script/tema02_optimizacion_consultas_indices/tema_Optimización_de_consultas_a_través_de_índices.md)
 
 **TEMA 3 "Manejo de transacciones y transacciones anidadas"** 
 > [!IMPORTANT]  
 > Estos temas se desarrollaran en la segunda entrega.
 ...
 
-**TEMA 3 "Manejo de permisos a nivel de usuario de bases de datos"** 
+**TEMA 4 "Manejo de permisos a nivel de usuario de bases de datos"** 
 > [!IMPORTANT]  
 > Estos temas se desarrollaran en la segunda entrega.
 
@@ -123,22 +123,31 @@ Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris t
 Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 
 
-### Desarrollo TEMA 1 "----"
+### Desarrollo TEMA 1 "Procedimientos y funciones almacenadas"
 
 > [!IMPORTANT]  
 > Estos temas se desarrollaran en la segunda entrega.
 
 > Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_1](script/tema01_nombre_tema)
 
-### Desarrollo TEMA 2 "----"
+### Desarrollo TEMA 2 "Optimización de consultas a través de índices"
+
+> [!IMPORTANT]  
+> Aqui se encuentra el desarrollo del [scripts-> tema_2](script/tema02_optimizacion_consultas_indices/tema02_script.sql)
+
+### Desarrollo TEMA 3 "Manejo de transacciones y transacciones anidadas"
 
 > [!IMPORTANT]  
 > Estos temas se desarrollaran en la segunda entrega.
 
-> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_2](script/tema02_nombre_tema)
+> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_3](script/tema03_nombre_tema)
 
-... 
+### Desarrollo TEMA 4 "Manejo de permisos a nivel de usuario de bases de datos"
 
+> [!IMPORTANT]  
+> Estos temas se desarrollaran en la segunda entrega.
+
+> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_4](script/tema04_nombre_tema)
 
 ## CAPÍTULO V: CONCLUSIONES
 
