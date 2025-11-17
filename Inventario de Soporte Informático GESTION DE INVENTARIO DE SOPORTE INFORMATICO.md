@@ -82,8 +82,7 @@ usuarios dentro de la sección Informática.
 
 **TEMA 3 "Manejo de transacciones y transacciones anidadas"** 
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
-...
+>[Manejo de transacciones y transacciones anidadas](script/tema03_manejo_transacciones_y_transacciones_anidadas/tema_Manejo_de_transacciones_y_transacciones_anidadas.md)
 
 **TEMA 4 "Manejo de permisos a nivel de usuario de bases de datos"** 
 > [!IMPORTANT]  
