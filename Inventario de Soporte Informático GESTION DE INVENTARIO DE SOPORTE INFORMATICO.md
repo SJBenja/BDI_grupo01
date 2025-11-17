@@ -126,7 +126,7 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 ### Desarrollo TEMA 1 "Procedimientos y funciones almacenadas"
 
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
+> Aqui se encuentra el desarrollo del [scripts-> tema_1](script/tema01_procedimientos_y_funciones_almacenadas/tema01_script.sql)
 
 > Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_1](script/tema01_nombre_tema)
 
