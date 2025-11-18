@@ -5,7 +5,7 @@
 --          - Sandoval, Juan Benjamin
 --          - Sosa, Gustavo Daniel
 --          - Vallejos, Gustavo Oscar
---          - Vargas, Hernán Ezequiel
+
 -- SCRIPT DML: Carga Masiva para Pruebas de Rendimiento en AGENTE_INVENTARIO (1,000,000 Registros)
 
 USE base_inventario;

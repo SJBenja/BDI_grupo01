@@ -5,7 +5,7 @@
 --          - Sandoval, Juan Benjamin
 --          - Sosa, Gustavo Daniel
 --          - Vallejos, Gustavo Oscar
---          - Vargas, Hernán Ezequiel
+
 --DEFINICION MODELO DE DATOS.
 ---------------------------
 use master
