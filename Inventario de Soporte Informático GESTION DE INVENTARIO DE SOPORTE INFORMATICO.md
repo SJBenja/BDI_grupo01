@@ -81,11 +81,11 @@ usuarios dentro de la sección Informática.
 
 **TEMA 3 "Manejo de transacciones y transacciones anidadas"** 
 > [!IMPORTANT]  
->[Manejo de transacciones y transacciones anidadas](script/tema03_manejo_transacciones_y_transacciones_anidadas/tema_Manejo_de_transacciones_y_transacciones_anidadas.md)
+>[Manejo de transacciones y transacciones anidadas](script/tema03_manejo_transacciones_transacciones_anidadas/transacciones_transaccionesAnidadas.md)
 
 **TEMA 4 "Manejo de permisos a nivel de usuario de bases de datos"** 
 > [!IMPORTANT]  
-> [Manejo de permisos a nivel de usuario de bases de datos](script/tema04_manejo_de_permisos_a_nivel_de_usuario_de_bases_de_datos/tema_Manejo_de_permisos_a_nivel_de_usuario_de_bases_de_datos.md)
+> [Manejo de permisos a nivel de usuario de bases de datos](script/tema04_manejo_permisos_nivel_usuario/tema_manejo_permisos_nivel_usuarios.md)
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
@@ -118,7 +118,7 @@ Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris t
 
 
 ### Diagrama conceptual (opcional)
-![image](https://github.com/SJBenja/BDI_grupo01/blob/main/doc/image_onceptual.png "Diseño Conceptual")
+![image](https://github.com/SJBenja/BDI_grupo01/blob/main/doc/image_conceptual.png "Diseño Conceptual")
 
 ### Diagrama relacional
 
@@ -136,7 +136,7 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 > [!IMPORTANT]  
 > Aqui se encuentra el desarrollo del [scripts-> tema_1](script/tema01_procedimiento_funciones_almacenadas/tema01_script.sql)
 
-> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_1](script/tema01_nombre_tema)
+> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_1](script/tema01_procedimiento_funciones_almacenadas)
 
 ### Desarrollo TEMA 2 "Optimización de consultas a través de índices"
 
@@ -146,12 +146,13 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 ### Desarrollo TEMA 3 "Manejo de transacciones y transacciones anidadas"
 
 > [!IMPORTANT]  
-> Aqui se encuentra el desarrollo del [scripts-> tema_3](script/tema03_manejo_transacciones_y_transacciones_anidadas/tema03_script.sql)
+> Aqui se encuentra el desarrollo del [scripts-> tema_3](script/tema03_manejo_transacciones_transacciones_anidadas/transaccion.sql)
+> Aqui se encuentra el desarrollo del [scripts-> tema_3](script/tema03_manejo_transacciones_transacciones_anidadas/transaccionAnidada.sql)
 
 ### Desarrollo TEMA 4 "Manejo de permisos a nivel de usuario de bases de datos"
 
 > [!IMPORTANT]  
-> Aqui se encuentra el desarrollo del [scripts-> tema_4](script/tema04_manejo_de_permisos_a_nivel_de_usuario_de_bases_de_datos/tema04_script.sql)
+> Aqui se encuentra el desarrollo del [scripts-> tema_4](script/tema04_manejo_permisos_nivel_usuario/tema04_script.sql)
 
 ## CAPÍTULO V: CONCLUSIONES
 
