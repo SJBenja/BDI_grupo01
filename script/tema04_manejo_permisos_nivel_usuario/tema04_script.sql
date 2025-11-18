@@ -5,7 +5,7 @@
 --          - Sandoval, Juan Benjamin
 --          - Sosa, Gustavo Daniel
 --          - Vallejos, Gustavo Oscar
---          - Vargas, Hernán Ezequiel
+
 --CREACION DE USUARIOS Y ASIGNACION DE ROLES.
 ---------------------------
 USE master;
