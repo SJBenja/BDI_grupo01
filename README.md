@@ -14,15 +14,25 @@ BDI_grupo01/
 │   ├── image_conceptual.png
 │   └── image_relacional.png
 └── script/
+    ├── lote_prueba_inventario.sql
     ├── script_ddl_proyecto.sql
     ├── script_insert_proyecto.sql
-    ├── tema01_nombre_tema/
-    │   ├── tema_nombre.md
-    │   ├── tema01_script.sql
+    ├── tema01_procedimiento_funciones_almacenadas/
+    │   ├── procedimientos_y_funciones.md
+    │   └── tema01_script.sql
+    ├── tema02_optimizacion_consultas_indices/
+    │   ├── carga_masiva_tabla_agente_inventario.sql
+    │   ├── carga_masiva_tabla_inventario.sql
+    │   ├── modificacion_base_inventario.sql
+    │   ├── tema_Optimización_de_consultas_a_través_de_índices.md
     │   └── tema02_script.sql
-    └── tema02_nombre_tema/
-        ├── tema_nombre.md
-        └── tema02_script.sql
+    ├── tema03_manejo_transacciones_transacciones_anidadas/
+    │   ├── transaccion.sql
+    │   ├── transaccionAnidada.sql
+    │   └── transacciones_transaccionesAnidadas.md
+    └── tema04_manejo_permisos_nivel_usuario/
+        ├── tema_manejo_permisos_nivel_usuarios.md
+        └── tema04_script.sql
 ```
 
 ## Estructura del documento principal:
