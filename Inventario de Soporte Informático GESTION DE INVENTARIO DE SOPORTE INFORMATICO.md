@@ -10,7 +10,6 @@
 - Sandoval, Juan Benjamin
 - Sosa, Gustavo Daniel
 - Vallejos, Gustavo Oscar
-- Vargas, Hernán Ezequiel
 
 **Año**: 2025
 
@@ -86,7 +85,7 @@ usuarios dentro de la sección Informática.
 
 **TEMA 4 "Manejo de permisos a nivel de usuario de bases de datos"** 
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
+> [Manejo de permisos a nivel de usuario de bases de datos](script/tema04_manejo_de_permisos_a_nivel_de_usuario_de_bases_de_datos/tema_Manejo_de_permisos_a_nivel_de_usuario_de_bases_de_datos.md)
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
@@ -152,9 +151,7 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 ### Desarrollo TEMA 4 "Manejo de permisos a nivel de usuario de bases de datos"
 
 > [!IMPORTANT]  
-> Estos temas se desarrollaran en la segunda entrega.
-
-> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_4](script/tema04_nombre_tema)
+> Aqui se encuentra el desarrollo del [scripts-> tema_4](script/tema04_manejo_de_permisos_a_nivel_de_usuario_de_bases_de_datos/tema04_script.sql)
 
 ## CAPÍTULO V: CONCLUSIONES
 
