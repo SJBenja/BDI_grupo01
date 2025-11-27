@@ -159,7 +159,10 @@ BEGIN
         i.modelo,
         i.id_estado,
         e.descripcion AS estado_desc,
-        ISNULL(dbo.fn_NombreCompletoAgente(ai.cuil), 'No asignado') AS asignado_a
+        CASE 
+            WHEN ai.cuil IS NULL THEN 'No asignado'
+            ELSE dbo.fn_NombreCompletoAgente(ai.cuil)
+        END AS asignado_a
     FROM inventario AS i
     INNER JOIN hardware AS h ON i.id_hard = h.id_hard
     INNER JOIN fabricante AS f ON i.id_fabricante = f.id_fabricante
